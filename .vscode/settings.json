@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "functional": "cpp",
+        "ostream": "cpp"
+    },
+    "cmake.configureOnOpen": true
+}
