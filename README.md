@@ -14,6 +14,10 @@ Multithreaded manga downloader which downloads images of every chapter of a give
      - (macOS) `make setup-mac` instead to get cmake to use homebrew's llvm
 - `make`
 
+## Usage
+- `build/manganato-downloader /<path>` where path is `https://manganato.com/<path>`
+    - e.g. `build/manganato /manga-cs979853`
+
 # Hacks
 - C style of assigning `void*` to a pointer of another type is not allowd in c++
     - Add a C cast to that type in `_deps/lexbor-src/source/lexbor/css/stylesheet.h:33`
