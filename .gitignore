@@ -1,5 +1,6 @@
 # project specific
 build/
+mangas/
 
 # Created by https://www.toptal.com/developers/gitignore/api/cmake,c++,linux,macos,windows,visualstudiocode,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=cmake,c++,linux,macos,windows,visualstudiocode,vim

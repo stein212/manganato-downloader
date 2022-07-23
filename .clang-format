@@ -1,1 +1,10 @@
 IndentWidth: 4
+
+ColumnLimit: 100
+
+AlignAfterOpenBracket: DontAlign
+ContinuationIndentWidth: 8
+
+AlwaysBreakTemplateDeclarations: Yes
+
+AllowShortLambdasOnASingleLine: Empty
