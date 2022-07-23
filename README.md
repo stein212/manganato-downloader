@@ -1,4 +1,5 @@
 # Manganato Downloader
+Multithreaded manga downloader which downloads images of every chapter of a given manga. Images will be stored in mangas > manga-name > chapter > [number].[ext]
 
 ## Setup
 - Ensure openssl 3.0 is installed
