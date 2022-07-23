@@ -7,7 +7,6 @@ Multithreaded manga downloader which downloads images of every chapter of a give
     - macos use `brew install openssl`
         - ensure it is in the path
     - no idea for windows
-- Ensure `tbb` is installed for threading
 - (macOS) use `homebrew`'s  `llvm`
     - To use OpenMP
 - `make setup`
