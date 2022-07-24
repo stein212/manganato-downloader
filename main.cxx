@@ -94,7 +94,7 @@ int main(int argc, char *argv[]) {
     std::reverse(remainingChapterLinks.begin(), remainingChapterLinks.end());
 
 #pragma omp parallel for
-    for (size_t i = remainingChapterLinks.size() - 1; i >= 0; --i) {
+    for (size_t i = 0; i < remainingChapterLinks.size(); ++i) {
         const auto &chapterLink = remainingChapterLinks[i];
         const auto threadId = omp_get_thread_num();
 
