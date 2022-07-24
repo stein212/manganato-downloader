@@ -7,11 +7,9 @@ set(CMAKE_CXX_FLAGS "-g -Wall -Werror -pedantic -fopenmp")
 set(CMAKE_LD_FLAGS "-lpthreads")
 
 find_package(OpenSSL REQUIRED)
-find_package(tbb REQUIRED)
 
 # https://stackoverflow.com/questions/66372317/use-find-package-on-external-project
 include(FetchContent)
-include(ExternalProject)
 
 FetchContent_Declare(cpp-httplib
     GIT_REPOSITORY https://github.com/yhirose/cpp-httplib.git
